@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:2rem;
+    overflow:hidden;
+   
+}
+#phonenum{
+    height: 3rem;
+    width: 25rem;
+    border-radius: 0.7rem;
+    font-size: 1.5rem;
+}
+#submit-btn{
+    width: 10rem;
+    height: 3rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+#heading{
+   margin-top: 5rem;
+   font-size: 3rem;
+   color: rgb(48, 47, 47);
+   text-align: center;
+}
+#result{
+    color: red;
+}
+@media screen and (max-width:768px) {
+#heading {
+    font-size: 7vmin;
+    align-self:flex-start;
+    width: 100%;
+}
+#phonenum{
+    height: 2rem;
+    width: 60vw;
+    border-radius: 0.5rem;
+    font-size: 4.5vmin;
+}
+#submit-btn{
+    width: 30vw;
+    height: 20%;
+    border-radius: .5rem;
+    font-size: 6vmin;
+
+    
+}
